@@ -1,0 +1,136 @@
+/* Accessibility & General Formatting */
+body {
+  background-color: rgb(208,237,241);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  color: rgb(12,34,49);
+}
+
+p, ul, li {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* NavBar Header */
+.navbarHeader {
+  background-color: rgb(208,237,241);
+  height: 30px;
+}
+
+.navbarHeader a {
+  margin: 6px 12px 6px 12px;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.navbarHeader img {
+  margin: 6px 12px 6px 12px;
+  border-radius: 5px;
+}
+
+.navbarHeader .nav-item:hover,
+.navbarHeader .nav-item:active
+{
+  background-color: rgb(12,34,49,0.25);
+}
+
+.navbarHeader .nav-item a:hover,
+.navbarHeader .nav-item a:active
+{
+  color: white;
+}
+
+/* NavBar */
+#navbar {
+  padding: 0px;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.nav-item a {
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(12,34,49);
+  font-weight: 700;
+}
+
+#navbar .nav-item:hover,
+#navbar .nav-item:active,
+#navbar .nav-item a:hover,
+#navbar .nav-item a:active
+{
+  background-color: rgb(12,34,49,0.25);
+  color: white;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+
+nav, footer {
+    background-color: rgb(208,237,241);
+}
+
+footer a, footer p {
+  text-decoration: none;
+  color: rgb(208,237,241);
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  transition: background-color 2s ease-in-out;
+}
+
+footer a:hover {
+  color: red;
+  background-color: rgb(57,133,87);
+}
+
+hr {
+color: rgb(12,34,49,0.25);
+}
+
+.fas {
+  color: rgb(208,237,241);
+  margin-right: 1rem;
+}
+
+.btn {
+  color: rgb(208,237,241);
+  border-color: rgb(208,237,241);
+  font-size: 0.8rem;
+}
+
+.form-control {
+    padding: 3px 6px 3px 6px;
+      font-size: 0.8rem;
+}
+
+/* Page Specific CSS */
+
+main {
+  margin-top: 1rem;
+}
+
+.accountContainer {
+  display: grid;
+  grid-template: 1fr / 1fr 4fr;
+  height: 750px;
+  width: 100%;
+}
+
+.a {
+  background-color: white;
+  border-right: 2px solid red;
+  height: 75%;
+}
+
+.b {
+  background-color: white;
+  height: 75%;
+}
